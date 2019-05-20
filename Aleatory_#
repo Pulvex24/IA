@@ -1,0 +1,6 @@
+import numpy as np  
+ingresos = np.random.normal(20000, 13000, 7000) 
+
+import matplotlib.pyplot as plot  
+plot.hist(ingresos, 50)  
+plot.show() 
